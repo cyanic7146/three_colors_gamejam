@@ -13,7 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public float groundAcceleration = 12f;
     public float maxAirSpeed = 6f;
     public float jumpBufferTime = 0.15f;
-    public bool instantDirectionChange = true;
+    public bool instantGroundDirectionChange = true;
+    public bool instantAirDirectionChange = true;
     private Rigidbody2D rb;
     private Vector2 currentMoveInput;
     private bool isGrounded;
@@ -42,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         bool changingDirection = inputDirection != 0 && inputDirection != currentSpeedDirection && Mathf.Abs(currentHorizontalSpeed) > 0.01f;
         if (isGrounded)
         {
-            if (changingDirection && instantDirectionChange)
+            if (changingDirection && instantGroundDirectionChange)
             {
             currentHorizontalSpeed = 0f;
             }
@@ -62,6 +63,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            if (changingDirection && instantAirDirectionChange)
+            {
+            currentHorizontalSpeed = 0f;
+            }
             float targetAirSpeed = currentMoveInput.x * maxAirSpeed;
             if (Mathf.Abs(currentMoveInput.x) > 0.01f)
             {
