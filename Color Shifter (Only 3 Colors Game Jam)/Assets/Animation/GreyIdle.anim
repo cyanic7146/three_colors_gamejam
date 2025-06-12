@@ -26,25 +26,25 @@ AnimationClip:
       value: {fileID: -4475870984686220034, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
     - time: 0.38333333
       value: {fileID: 984568739342602664, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 0.51666665
+    - time: 0.53333336
       value: {fileID: 5032892277092302140, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 0.71666664
+    - time: 0.68333334
       value: {fileID: 2415482932147661092, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
     - time: 0.8666667
       value: {fileID: 1133380226806627432, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 1.0666667
+    - time: 1.0333333
       value: {fileID: 8009256915619881373, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 1.25
+    - time: 1.2333333
       value: {fileID: 7954177677321616001, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 1.4
+    - time: 1.4166666
       value: {fileID: 3386394231385714903, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 1.5833334
+    - time: 1.6
       value: {fileID: -7054892502957617750, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 1.7666667
+    - time: 1.8
       value: {fileID: -8665650158643866468, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
     - time: 1.9666667
       value: {fileID: 214543129668131459, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
-    - time: 2.1333334
+    - time: 2.15
       value: {fileID: 2124981446247867155, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
     - time: 2.3166666
       value: {fileID: -7388764271363130697, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
@@ -55,7 +55,7 @@ AnimationClip:
     - time: 2.8333333
       value: {fileID: 2069450867513099751, guid: 6bf6f5e5edd1742cf87cba3dab43c129, type: 3}
     attribute: m_Sprite
-    path: PlayerRenderer
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -67,7 +67,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3493307690
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212

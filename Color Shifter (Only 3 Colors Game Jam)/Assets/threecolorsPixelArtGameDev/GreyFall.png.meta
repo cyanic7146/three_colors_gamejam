@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: e3dde8ad754534d1895c88f7e50b02b8
+guid: 25b34738a4e8e4d7c9703ebb6cc7aca2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4298423693948049529
-    second: GreyFallSpriteSheet_0
+      213: -135053484366878897
+    second: GreyFall_0
   - first:
-      213: -8845208129177974170
-    second: GreyFallSpriteSheet_1
+      213: -297325860756010572
+    second: GreyFall_1
   - first:
-      213: -8211776313833012803
-    second: GreyFallSpriteSheet_2
+      213: 1032595671674493784
+    second: GreyFall_2
   - first:
-      213: 8030645599978754801
-    second: GreyFallSpriteSheet_3
+      213: 7333905388954516836
+    second: GreyFall_3
   - first:
-      213: 1128298125628788067
-    second: GreyFallSpriteSheet_4
+      213: -5212003738413343771
+    second: GreyFall_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,7 +125,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GreyFallSpriteSheet_0
+      name: GreyFall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -140,96 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 787aa14ac6ee854c0800000000000000
-      internalID: -4298423693948049529
+      spriteID: f4722ae4291302ef0800000000000000
+      internalID: -135053484366878897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyFallSpriteSheet_1
+      name: GreyFall_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66a03f702128f3580800000000000000
-      internalID: -8845208129177974170
+      spriteID: 4b9c91774bfafdbf0800000000000000
+      internalID: -297325860756010572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyFallSpriteSheet_2
+      name: GreyFall_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db1440f43f8e90e80800000000000000
-      internalID: -8211776313833012803
+      spriteID: 85b93ceda44845e00800000000000000
+      internalID: 1032595671674493784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyFallSpriteSheet_3
+      name: GreyFall_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f299cfff95927f60800000000000000
-      internalID: 8030645599978754801
+      spriteID: 46df4f4381447c560800000000000000
+      internalID: 7333905388954516836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyFallSpriteSheet_4
+      name: GreyFall_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36dc7d2da2588af00800000000000000
-      internalID: 1128298125628788067
+      spriteID: 5eb5ddbd63e3ba7b0800000000000000
+      internalID: -5212003738413343771
       vertices: []
       indices: 
       edges: []
@@ -238,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1d3e8dbbd1d36419f845c50289f10094
+    spriteID: 5c6109c17dd7f4c18bc7299637e59d1e
     internalID: 0
     vertices: []
     indices: 
@@ -248,13 +248,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      GreyFallSpriteSheet_0: -4298423693948049529
-      GreyFallSpriteSheet_1: -8845208129177974170
-      GreyFallSpriteSheet_2: -8211776313833012803
-      GreyFallSpriteSheet_3: 8030645599978754801
-      GreyFallSpriteSheet_4: 1128298125628788067
+      GreyFall_0: -135053484366878897
+      GreyFall_1: -297325860756010572
+      GreyFall_2: 1032595671674493784
+      GreyFall_3: 7333905388954516836
+      GreyFall_4: -5212003738413343771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
